@@ -1,0 +1,15 @@
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/UnityEngine.dll
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/UnityEditor.dll
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/Google.ProtocolBuffers.dll
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/Mono.Cecil.dll
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/Unity.DataContract.dll
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/Mono.Cecil.Mdb.dll
