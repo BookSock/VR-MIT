@@ -49,9 +49,11 @@ public class Teleport : MonoBehaviour, IGvrGazeResponder {
 
   public void TeleportRandomly() {
     Vector3 direction = Random.onUnitSphere;
+	Vector3 outofmap = new Vector3 (0,-10,0);
     direction.y = Mathf.Clamp(direction.y, 0.5f, 1f);
     float distance = 2 * Random.value + 1.5f;
-    transform.localPosition = direction * distance;
+    //transform.localPosition = direction * distance;
+	transform.localPosition = outofmap;
   }
 
   public void TeleportTo(BaseEventData data ) {

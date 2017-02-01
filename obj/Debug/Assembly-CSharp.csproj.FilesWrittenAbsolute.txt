@@ -13,3 +13,7 @@
 /Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/obj/Debug/Assembly-CSharp.dll
+/Users/jasonseibel/Dropbox (MIT)/Developer/MineGame/obj/Debug/Assembly-CSharp.dll.mdb

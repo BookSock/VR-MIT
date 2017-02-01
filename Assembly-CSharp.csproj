@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AppButtonEventTrigger.cs" />
+     <Compile Include="Assets\GlobalTimer.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\Teleport.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\PermissionsDemo\PermissionsFlowManager.cs" />
@@ -134,6 +135,10 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+     <Compile Include="Assets\Peek.cs" />
+     <Compile Include="Assets\TimeLeft.cs" />
+     <Compile Include="Assets\explode.cs" />
+     <Compile Include="Assets\globalBombs.cs" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoInsideShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />

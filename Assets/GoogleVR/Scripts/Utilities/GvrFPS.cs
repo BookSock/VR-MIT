@@ -24,6 +24,10 @@ public class GvrFPS : MonoBehaviour {
   private Text textField;
   private float fps = 60;
 
+  public static float timeLeft = 300.0f;
+
+  
+
   public Camera cam;
 
   void Awake() {
@@ -42,12 +46,18 @@ public class GvrFPS : MonoBehaviour {
   }
 
   void LateUpdate() {
+		/*
     float deltaTime = Time.unscaledDeltaTime;
     float interp = deltaTime / (0.5f + deltaTime);
     float currentFPS = 1.0f / deltaTime;
     fps = Mathf.Lerp(fps, currentFPS, interp);
     float msf = MS_PER_SEC / fps;
-    textField.text = string.Format(DISPLAY_TEXT_FORMAT,
-        msf.ToString(MSF_FORMAT), Mathf.RoundToInt(fps));
+    */
+	timeLeft -= Time.deltaTime;
+	textField.text = "Time Left:" + Mathf.Round(timeLeft);
+	if(timeLeft < 0)
+	{
+		//Application.LoadLevel("gameOver");
+	}
   }
 }

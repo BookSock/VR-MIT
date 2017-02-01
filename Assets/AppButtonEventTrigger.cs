@@ -1,9 +1,18 @@
-﻿using UnityEngine;
+﻿
+using UnityEngine;
 using System.Collections;
 using UnityEngine.EventSystems;
-/*
+
+
+
 public class AppButtonEventTrigger : EventTrigger {
 
+	public void Explode() {
+		var exp = GetComponent<ParticleSystem> ();
+		exp.Play ();
+		Destroy (gameObject, exp.duration);
+
+	}
 	// Use this for initialization
 	void Start () {
 	
@@ -11,22 +20,25 @@ public class AppButtonEventTrigger : EventTrigger {
 	
 	// Update is called once per frame
 	void Update () {
-		if RaycastHit == true {
-			
 
-			if (GvrController.AppButtonDown) {
-				Vector3 direction = Random.onUnitSphere;
-				direction.y = Mathf.Clamp(direction.y, 0.5f, 1f);
-				float distance = 2 * Random.value + 1.5f;
-				transform.localPosition = direction * distance;
 
+
+		/*
+
+		if (GvrController.AppButtonDown) {
+			Explode ();
+		}
+		*/
+				
 
 			// Do something.
 			// AppButtonUp is true for 1 frame after touchpad is touched.
-			}
-		}
-	
+			
+
+
 	}
+	
 }
 
-*/
+
+
