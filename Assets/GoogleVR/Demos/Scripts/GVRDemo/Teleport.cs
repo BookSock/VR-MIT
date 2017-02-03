@@ -49,18 +49,25 @@ public class Teleport : MonoBehaviour, IGvrGazeResponder {
 
   public void TeleportRandomly() {
     Vector3 direction = Random.onUnitSphere;
-	Vector3 outofmap = new Vector3 (0,-10,0);
+	Vector3 outofmap = new Vector3 (0,-15,0);
     direction.y = Mathf.Clamp(direction.y, 0.5f, 1f);
     float distance = 2 * Random.value + 1.5f;
     //transform.localPosition = direction * distance;
-	transform.localPosition = outofmap;
+	if (TimeLeft.switchControlls == 0) {
+		transform.localPosition = outofmap;
+		AudioSource source = gameObject.GetComponent<AudioSource> ();
+		source.Play ();
+	}
   }
 
   public void TeleportTo(BaseEventData data ) {
 	PointerEventData pointerData = data as PointerEventData;
 	Vector3 worldPos = pointerData.pointerCurrentRaycast.worldPosition;
 	Vector3 playerPos = new Vector3(worldPos.x, player.transform.position.y, worldPos.z);
-	player.transform.position = playerPos;
+	Debug.Log (Vector3.Distance (worldPos, player.transform.position));
+		if (Vector3.Distance (worldPos, player.transform.position) < 6) {
+		player.transform.position = playerPos;
+	}
   }
 
   #region IGvrGazeResponder implementation

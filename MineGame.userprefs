@@ -1,12 +1,27 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AppButtonEventTrigger.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/FlagBombs.cs">
     <Files>
       <File FileName="Assets/AppButtonEventTrigger.cs" Line="1" Column="1" />
       <File FileName="Assets/GoogleVR/Scripts/EventSystem/GvrPointerPhysicsRaycaster.cs" Line="1" Column="1" />
-      <File FileName="Assets/GoogleVR/Demos/Scripts/GVRDemo/Teleport.cs" Line="1" Column="1" />
+      <File FileName="Assets/GoogleVR/Demos/Scripts/GVRDemo/Teleport.cs" Line="63" Column="55" />
       <File FileName="Assets/GoogleVR/Scripts/EventSystem/GvrPointerInputModule.cs" Line="1" Column="1" />
-      <File FileName="Assets/GoogleVR/Scripts/Video/GvrVideoPlayerTexture.cs" Line="595" Column="7" />
+      <File FileName="Assets/GoogleVR/Scripts/Video/GvrVideoPlayerTexture.cs" Line="1" Column="1" />
+      <File FileName="Assets/3DText.shader" Line="18" Column="2" />
+      <File FileName="Assets/TimeLeft.cs" Line="67" Column="5" />
+      <File FileName="Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorClientSocket.cs" Line="65" Column="1" />
+      <File FileName="Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorConfig.cs" Line="53" Column="63" />
+      <File FileName="Assets/globalBombs.cs" Line="19" Column="28" />
+      <File FileName="Assets/explode.cs" Line="9" Column="16" />
+      <File FileName="Assets/RandomizeCubes.cs" Line="35" Column="45" />
+      <File FileName="Assets/GoogleVR/Scripts/Audio/GvrAudioSource.cs" Line="1" Column="1" />
+      <File FileName="Assets/Clock/Scripts/Clock.cs" Line="37" Column="13" />
+      <File FileName="Assets/StarNestSkybox/StarNestSkyboxReadme.txt" Line="41" Column="48" />
+      <File FileName="Assets/3D Decals Pack/README INFO.txt" Line="1" Column="1" />
+      <File FileName="Assets/wtfisgoingon.cs" Line="9" Column="28" />
+      <File FileName="Assets/UIManager.cs" Line="21" Column="4" />
+      <File FileName="Assets/Peek.cs" Line="22" Column="62" />
+      <File FileName="Assets/FlagBombs.cs" Line="18" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

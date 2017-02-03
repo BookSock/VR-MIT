@@ -23,11 +23,13 @@ public class Peek : MonoBehaviour {
 			gameObject.GetComponent<Renderer>().enabled = true;
 		}
 
-		if (GvrController.AppButton && numPeeks < 2 && timePeeking < 1) {
+		if (GvrController.AppButton && numPeeks < 2 && timePeeking < 1 && TimeLeft.switchControlls == 0) {
 			numPeeks += 1;
 			timePeeking += 200;
 			gameObject.GetComponent<Renderer>().enabled = false;
 	
 		}
+
+
 	}
 }
